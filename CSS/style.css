@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;    ;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #ffa8ff;
+    background: url(https://images.wallpaperscraft.ru/image/single/ryby_podvodnyj_mir_plavat_113827_1280x720.jpg) bottom no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #bd3009;
+    font-size: 4rem;
+}
+
+.news {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid #193d40;
+}
+
+article a {
+    color: #193d40;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #9c2a0b;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px; 
+}
+
+.span::before {
+    content: "New";
+    padding-right: 5px;
+    color: #c955bc;
+}
+
+article p {
+    margin-top: 10px;
+}
+
+.news1 {
+    color: #75c1c7;
+    margin-bottom: 5px;
+}
+
+.news2 {
+    color: #2cc96b;
+    margin-bottom: 5px;
+}
+
+.news3 {
+    color: #425796;
+    margin-bottom: 5px;
+}
+
+.news4 {
+    color: #adc0f7;
+    margin-bottom: 5px;
+}
+
+.news5 {
+    color: #e3e15b;
+    margin-bottom: 5px;
+}
+
+article:nth-child(even) {
+    background-color: #f1facf;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 40px;
+}
+
+footer .links > a {
+    color: #d1512e;
+    padding: 0 25px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: #9c2a0b;
+}
